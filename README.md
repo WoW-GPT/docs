@@ -6,11 +6,11 @@ Use this link to install the bot onto your server: <a href="https://discord.com/
 
 Create a channel and type <code>!wowgpt</code> to initialize the main screen for the bot.  (Your original message will be removed by the bot.)
                 
-<img src="main.png" />
+<img width="500" src="main.png" />
 
 Click any of the buttons and the bot will DM you and allow you to mark your recipes for the Discord server.
 
-<img src="book.png" />
+<img width="500" src="book.png" />
 
 ## Frequently Asked Questions
 
@@ -19,6 +19,9 @@ Yes.  Because a server usually signifies a guild, your recipe data is stored per
 
 #### How are new recipes added to the app?
 I've added the recipes that my guild and I regularly use and am adding new ones regularly.  If you want me to add new recipes, leave a response on this Google Form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2Jm-jeN89_lrcyDUp2zZL9S_YSyaEstQzcEgTQl-yv_nZw/viewform?usp=dialog"></a>.  Note: the bot also has a button with a link to the same form.
+
+#### I've got another question or issue, how do I contact you?
+There's a support Discord for any additional questions and concerns.  Join here: <a href="https://discord.gg/MCauqfP9Qg">https://discord.gg/MCauqfP9Qg</a>
 
 ## Privacy Policy
 <a href="https://wow-gpt.github.io/docs/privacy.html">https://wow-gpt.github.io/docs/privacy.html</a>
