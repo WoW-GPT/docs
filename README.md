@@ -4,11 +4,11 @@
 
 Use this link to install the bot onto your server: <a href="https://discord.com/oauth2/authorize?client_id=1377491013677092970">https://discord.com/oauth2/authorize?client_id=1377491013677092970</a>.  You'll need admin privileges on the server you want to use.
 
-Create a channel and type <code>!wowgpt</code> to initialize the main screen for the bot.  (Your original message will be removed by the bot.)
+Create a channel and type <code>!recipes</code> to initialize the main screen for the bot.  (Your original message will be removed by the bot.)
                 
 <img width="500" src="main.png" />
 
-Click any of the buttons and the bot will DM you and allow you to mark your recipes for the Discord server.
+Click any of the buttons and the bot send a message to you (and you only!) and allow you to mark your recipes for the Discord server.
 
 <img width="500" src="book.png" />
 
