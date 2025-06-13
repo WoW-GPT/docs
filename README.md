@@ -20,6 +20,13 @@ You can define a role for interacting with the App via the <code>!setrole "role 
 
 To remove this restriction and restore default behavior, use <code>!resetrole</code>.  You will have to unset and set to assign a different role to the App.
 
+### Welcome Message Customization
+The <code>!recipes</code> command's message can be customized through two additional commands, <code>!settitle</code> and <code>!setmessage</code>.  The following uses will configure the recipes' message to read like the above screenshot:
+
+<code>!settitle Welcome to the Guild Professions Tracker!</code>
+
+<code>!setmessages Click a recipe button to open the guild ownership book. You can also enter any recipes you own.</code>
+
 ## Frequently Asked Questions
 
 #### Do I need to set my recipes for each server that I'm on?
