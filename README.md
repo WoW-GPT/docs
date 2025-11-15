@@ -2,10 +2,12 @@
 
 ## Installation
 
-Use this link to install the bot onto your server: <a href="https://discord.com/oauth2/authorize?client_id=1377491013677092970">https://discord.com/oauth2/authorize?client_id=1377491013677092970</a>.  You'll need admin privileges on the server you want to use.
+Use this link to install the bot onto your server: <a href="https://discord.com/oauth2/authorize?client_id=1377491013677092970">https://discord.com/oauth2/authorize?client_id=1377491013677092970</a>.  You'll need admin privileges on the server (and channel(s)) you want to use.
+
+Note: The bot used to listen and respond to messages as a way to perform actions.  The primary way to interact with the bot has now been changed to slash commands.
 
 ## Usage
-Create a channel and type <code>!recipes</code> to initialize the main screen for the bot.  (Your original message will be removed by the bot.)
+Create a channel and type <code>/recipes</code> to initialize the main screen for the bot.  (Your original message will be removed by the bot.)
                 
 <img width="500" src="main.png" />
 
@@ -14,18 +16,18 @@ Click any of the buttons and the bot send a message to you (and you only!) and a
 <img width="500" src="book.png" />
 
 ### Roles and Retrictions
-By default, invoking the App via <code>!recipes</code> is only available to admins.  Any user can interact with the App by pressing a profession button to mark whether or not they have profession recipes.
+By default, invoking the App via <code>/recipes</code> is only available to admins.  Any user can interact with the App by pressing a profession button to mark whether or not they have profession recipes.
 
-You can define a role for interacting with the App via the <code>!setrole "role name"</code> command.  Now, in order for any of your users to use the App, they will need to have this role set.  Anyone with the role will be able to invoke <code>!recipes</code> and mark recipes as owned.
+You can define a role for interacting with the App via the <code>/set_role "role name"</code> command.  Now, in order for any of your users to use the App, they will need to have this role set.
 
-To remove this restriction and restore default behavior, use <code>!resetrole</code>.  You will have to unset and set to assign a different role to the App.
+To remove this restriction and restore default behavior, use <code>/remove_role</code>.  This will restore the default behavior.
 
 ### Welcome Message Customization
-The <code>!recipes</code> command's message can be customized through two additional commands, <code>!settitle</code> and <code>!setmessage</code>.  The following uses will configure the recipes' message to read like the above screenshot:
+The <code>/recipes</code> command's message can be customized through two additional commands, <code>/set_title <your title here></code> and <code>/set_descripton <your description here</code>.  The following uses will configure the recipes' message to read like the above screenshot:
 
-<code>!settitle Welcome to the Guild Professions Tracker!</code>
+<code>/set_title Welcome to the Guild Professions Tracker!</code>
 
-<code>!setmessages Click a recipe button to open the guild ownership book. You can also enter any recipes you own.</code>
+<code>/set_description Click a recipe button to open the guild ownership book. You can also enter any recipes you own.</code>
 
 ## Frequently Asked Questions
 
