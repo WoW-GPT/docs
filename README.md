@@ -23,7 +23,7 @@ You can define a role for interacting with the App via the <code>/set_role "role
 To remove this restriction and restore default behavior, use <code>/remove_role</code>.  This will restore the default behavior.
 
 ### Welcome Message Customization
-The <code>/recipes</code> command's message can be customized through two additional commands, <code>/set_title <your title here></code> and <code>/set_descripton <your description here</code>.  The following uses will configure the recipes' message to read like the above screenshot:
+The <code>/recipes</code> command's message can be customized through two additional commands, <code>/set_title "your title here"</code> and <code>/set_descripton "your description here"</code>.  The following uses will configure the recipes' message to read like the above screenshot:
 
 <code>/set_title Welcome to the Guild Professions Tracker!</code>
 
