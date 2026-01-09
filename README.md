@@ -35,7 +35,7 @@ The <code>/recipes</code> command's message can be customized through two additi
 Yes.  Because a server usually signifies a guild, your recipe data is stored per server.  This allows the same Discord account to have recipes for multiple factions and WoW servers!
 
 #### How are new recipes added to the app?
-If you want new recipes added, leave a response on this Google Form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2Jm-jeN89_lrcyDUp2zZL9S_YSyaEstQzcEgTQl-yv_nZw/viewform?usp=dialog"></a>.  Note: the bot also has a button with a link to the same form.
+If you want new recipes added, leave a response on this <a href="https://forms.gle/ridRaw4mVLshCSPv8">Google Form</a>.  Note: the bot also has a button with a link to the same form.
 
 #### What's the quickest way to view who owns a specific recipe?
 You can search through each profession's recipes list.  The App will only show you a set number at a time due to Discord restrictions.  However, the App also lets you perform a text search via a modal.  The modal can be triggered through a search button which should be located at the bottom of every message the App sends.
